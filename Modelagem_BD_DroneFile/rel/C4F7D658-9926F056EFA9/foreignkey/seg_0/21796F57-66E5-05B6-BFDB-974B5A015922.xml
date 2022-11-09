@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="21796F57-66E5-05B6-BFDB-974B5A015922" containerWithKeyObject="C083D0BB-A79A-959B-E629-ABD91034A4D1" localFKIndex="7E7AB770-5415-E534-37D9-BE4DDCB48093" name="PILOTO_DRONE_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>B78E442D-04D0-1778-2818-2AB3CB1B17E7</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<referredTableLongName>DRONE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3EE75C20-FA24-E72B-E1E2-669FF54A9C41</referredTableID>
+<keyObject>83BED191-8EE0-655E-97F3-35F9944967BF</keyObject>
+<referredKeyID>83BED191-8EE0-655E-97F3-35F9944967BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numero_serie_drone</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

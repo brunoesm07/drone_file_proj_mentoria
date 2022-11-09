@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="CDA628AB-D304-F3C2-123E-535DB226EE0D" name="DRONE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="13C99F54-AA80-422A-D37B-6B27F8AA5CEC" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="2EC1D6A4-9727-9A58-A97A-314D4781DE94" name="PILOTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="13C99F54-AA80-422A-D37B-6B27F8AA5CEC" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="B78E442D-04D0-1778-2818-2AB3CB1B17E7" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="13C99F54-AA80-422A-D37B-6B27F8AA5CEC" propertySourceId="CDA628AB-D304-F3C2-123E-535DB226EE0D" propertyTargetId="2EC1D6A4-9727-9A58-A97A-314D4781DE94"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelagem BD Drone File" id="EF62D041-61BE-9EB9-DDB0-020A2F324D50" version="3.5">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 19:59:36 UTC</createdTime>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EF62D041-61BE-9EB9-DDB0-020A2F324D50</designId>
+</OSDM_Design>

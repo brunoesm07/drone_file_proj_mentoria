@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="3EE75C20-FA24-E72B-E1E2-669FF54A9C41" name="DRONE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="C4F7D658-EAC8-221F-78D8-9926F056EFA9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="C083D0BB-A79A-959B-E629-ABD91034A4D1" name="PILOTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="C4F7D658-EAC8-221F-78D8-9926F056EFA9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="21796F57-66E5-05B6-BFDB-974B5A015922" name="PILOTO_DRONE_FK" seqName="seg_0" containerID="C083D0BB-A79A-959B-E629-ABD91034A4D1" refContainerID="3EE75C20-FA24-E72B-E1E2-669FF54A9C41" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="C4F7D658-EAC8-221F-78D8-9926F056EFA9" propertySourceId="3EE75C20-FA24-E72B-E1E2-669FF54A9C41" propertyTargetId="C083D0BB-A79A-959B-E629-ABD91034A4D1"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

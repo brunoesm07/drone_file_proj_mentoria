@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EE75C20-FA24-E72B-E1E2-669FF54A9C41" name="DRONE">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>CDA628AB-D304-F3C2-123E-535DB226EE0D</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_serie_drone" id="BF1A49A8-36A0-42B4-6A56-C35E09153AD3">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>F63A4C4A-B1C2-7E35-90DE-A7518A979CF9</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="9928D436-9CC6-8C9C-2583-1BEF399F7434">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>109F7E2D-86C0-C427-85A5-FBB1CA764ABA</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fabricante" id="0FB95E03-DDEC-5933-C637-66E5C6AE3A83">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>340F9753-353F-5E97-13EA-F9445C3D8149</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="classe" id="1CA0371B-30B6-8C39-24C7-0D8636D6DCF1">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>2A823BBD-6964-E8DF-15CE-97E9D6D933E4</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83BED191-8EE0-655E-97F3-35F9944967BF" name="DRONE_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>DE845402-AD4B-8926-E4A6-33C6F10B7DBF</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF1A49A8-36A0-42B4-6A56-C35E09153AD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

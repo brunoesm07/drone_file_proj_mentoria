@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C083D0BB-A79A-959B-E629-ABD91034A4D1" name="PILOTO">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>2EC1D6A4-9727-9A58-A97A-314D4781DE94</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_licenca" id="E7C50E14-416A-99F2-CE39-0B579DD86B6D">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>7CAA0936-B39B-9B56-E6ED-E098C04D5CC9</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="4549E33D-23EC-6F16-1C89-93404A49BAE6">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>B321B7F4-F45E-21C3-3C90-4D5389070D9F</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="classe" id="051512C5-A05B-CFBE-C196-C68474F3B8FD">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>3BE3086A-D597-BA54-97EF-A33615F26B49</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRONE_numero_serie_drone" id="4E772154-8813-C34D-4123-328D22B11336">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>67BBE8FF-384E-A53A-B500-565EE5024A84</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21796F57-66E5-05B6-BFDB-974B5A015922" referredColumn="BF1A49A8-36A0-42B4-6A56-C35E09153AD3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6ECA792F-7052-6D14-CAFA-9FF2B5A8FB14" name="PILOTO_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>0D229F76-40E8-D479-53A1-344D637A19EB</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7C50E14-416A-99F2-CE39-0B579DD86B6D"/>
+<colUsage columnID="4E772154-8813-C34D-4123-328D22B11336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E7AB770-5415-E534-37D9-BE4DDCB48093" name="PILOTO_DRONE_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:07:01 UTC</createdTime>
+<generatorID>B78E442D-04D0-1778-2818-2AB3CB1B17E7</generatorID>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E772154-8813-C34D-4123-328D22B11336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

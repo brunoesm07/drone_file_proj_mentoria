@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="C4F7D658-EAC8-221F-78D8-9926F056EFA9" mainViewID="7A0C95F8-05A1-DF95-C738-313FBDA322A3">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 19:59:36 UTC</createdTime>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

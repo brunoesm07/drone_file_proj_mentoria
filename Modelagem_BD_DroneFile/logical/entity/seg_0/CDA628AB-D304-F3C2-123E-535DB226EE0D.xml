@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDA628AB-D304-F3C2-123E-535DB226EE0D" name="DRONE">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:00:46 UTC</createdTime>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<engineerTo>
+<item key="C4F7D658-EAC8-221F-78D8-9926F056EFA9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_serie_drone" id="F63A4C4A-B1C2-7E35-90DE-A7518A979CF9">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:00:57 UTC</createdTime>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<engineerTo>
+<item key="C4F7D658-EAC8-221F-78D8-9926F056EFA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="109F7E2D-86C0-C427-85A5-FBB1CA764ABA">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:01:44 UTC</createdTime>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<engineerTo>
+<item key="C4F7D658-EAC8-221F-78D8-9926F056EFA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fabricante" id="340F9753-353F-5E97-13EA-F9445C3D8149">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:02:05 UTC</createdTime>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<engineerTo>
+<item key="C4F7D658-EAC8-221F-78D8-9926F056EFA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="classe" id="2A823BBD-6964-E8DF-15CE-97E9D6D933E4">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:02:23 UTC</createdTime>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<engineerTo>
+<item key="C4F7D658-EAC8-221F-78D8-9926F056EFA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE845402-AD4B-8926-E4A6-33C6F10B7DBF" name="DRONE PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:01:38 UTC</createdTime>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<engineerTo>
+<item key="C4F7D658-EAC8-221F-78D8-9926F056EFA9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F63A4C4A-B1C2-7E35-90DE-A7518A979CF9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

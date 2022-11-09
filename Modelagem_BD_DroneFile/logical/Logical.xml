@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="13C99F54-AA80-422A-D37B-6B27F8AA5CEC" mainViewID="26AB41F4-CB72-73E3-8D50-3EF339A6B4EA">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 19:59:36 UTC</createdTime>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

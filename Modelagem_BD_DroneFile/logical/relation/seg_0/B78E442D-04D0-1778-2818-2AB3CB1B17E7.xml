@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="B78E442D-04D0-1778-2818-2AB3CB1B17E7">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 20:05:44 UTC</createdTime>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<engineerTo>
+<item key="C4F7D658-EAC8-221F-78D8-9926F056EFA9" value="true"/>
+</engineerTo>
+<sourcePk>DE845402-AD4B-8926-E4A6-33C6F10B7DBF</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CDA628AB-D304-F3C2-123E-535DB226EE0D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2EC1D6A4-9727-9A58-A97A-314D4781DE94</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="9D15F280-43EE-4E41-4EB3-9527357D793F">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-11-09 19:59:36 UTC</createdTime>
+<ownerDesignName>Modelagem BD Drone File</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
