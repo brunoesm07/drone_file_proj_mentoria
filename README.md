@@ -7,4 +7,4 @@ Desenvolver um sistema de cadastro de equipamentos e pilotos para uma empresa de
 
 <h3>Etapas</h3>
 1. Elaborar os <a href="https://github.com/brunoesm07/drone_file_proj_mentoria/blob/main/Wireframes%200.5x.png"> wireframes </a> do sistema utilizando o Figma. <br> 
-2. Modelagem de Dados: <a href="https://github.com/brunoesm07/drone_file_proj_mentoria/blob/main/PNG_dos_modelos_BancodeDados/modeloConceitual.png">Modelo Conceitual</a>, <a href="https://github.com/brunoesm07/drone_file_proj_mentoria/blob/main/PNG_dos_modelos_BancodeDados/Modelo%20Logico%20DroneFile.png"> Modelo Logico</a>
+2. Modelagem de Dados utilizando Oracle SQL Developer Data Modeler: <a href="https://github.com/brunoesm07/drone_file_proj_mentoria/blob/main/PNG_dos_modelos_BancodeDados/modeloConceitual.png">Modelo Conceitual</a>, <a href="https://github.com/brunoesm07/drone_file_proj_mentoria/blob/main/PNG_dos_modelos_BancodeDados/Modelo%20Logico%20DroneFile.png"> Modelo Logico</a>
