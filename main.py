@@ -1,39 +1,75 @@
 from fastapi import FastAPI
 
-app = FastAPI()
+description = """
+Drone File é um sistema de gestão de drones.
+
+Obtenha informações sobre seu drone e quais dos seus pilotos estão aptos a pilota-lo! 
+
+## Você poderá:
+
+* Incluir novos drones e pilotos
+* Pesquisar todos os pilotos aptos a utilizar determinado drone
+* Pesquisar todas as informações de drones e pilotos a sua escolha.
+"""
+
+tags_metadata = [
+    {
+        "name": "drones",
+        "description": "Incluir, pesquisar, editar ou deletar **drones** no sistema.",
+    },
+    {
+        "name": "pilotos",
+        "description": "Incluir, pesquisar, editar ou deletar **pilotos** no sistema.",
+    },
+]
+
+app = FastAPI(
+    title="Drone File",
+    description=description,
+    version="0.0.1",
+    openapi_tags=tags_metadata
+)
 
 @app.get("/")
 def drone_file_root():
     return {"App": "Drone File"}
 
-@app.post("/inserir_drone")
-def create_drone():
-    return {"inserir drone"}
+@app.post("/drones/", status_code=201, tags=["drones"])
+def create_drones():
+    return {}
 
-@app.post("/inserir_piloto")
-def create_piloto():
-    return {"inserir piloto"}
+@app.post("/pilotos/", status_code=201, tags=["pilotos"])
+def create_pilotos():
+    return {}
 
-@app.get("/drone/{numero_serie_drone}")
-def read_drone(numero_serie_drone: int)
-    return {drone}
+@app.get("/drones/{numero_serie_drone}", tags=["drones"])
+def read_drones(numero_serie_drone: int):
+    return {"drones": {numero_serie_drone}}
 
-@app.get("/piloto/{numero_licenca}")
-def read_drone(numero_licenca: int)
-    return {piloto}
+@app.get("/drones", tags=["drones"])
+def read_drones():
+    return {"drones"}
 
-@app.put("/drone/{numero_serie_drone}")
-def update_drone(numero_serie_drone: int)
-    return {drone}
+@app.get("/drones/{numero_serie_drone}/pilotos", tags=["drones"])
+def read_drones():
+    return {"drones": {"numero_serie_drone": "pilotos"}}
 
-@app.put("/piloto/{numero_licenca}")
-def update_piloto(numero_licenca: int)
-    return {piloto}
+@app.get("/pilotos/{numero_licenca}", tags=["pilotos"])
+def read_drones(numero_licenca: int):
+    return {"pilotos": {numero_licenca}}
 
-@app.delete("/drone/{numero_serie_drone}")
-def delete_drone(numero_serie_drone: int)
-    return {drone}
+@app.put("/drones/{numero_serie_drone}", tags=["drones"])
+def update_drones(numero_serie_drone: int):
+    return {}
 
-@app.delete("/piloto/{numero_licenca}")
-def delete_piloto(numero_licenca: int)
-    return {piloto}
+@app.put("/pilotos/{numero_licenca}", tags=["pilotos"])
+def update_pilotos(numero_licenca: int):
+    return {}
+
+@app.delete("/drones/{numero_serie_drone}", tags=["drones"])
+def delete_drones(numero_serie_drone: int):
+    return {f"O drone com nº de serie {numero_serie_drone} foi deletado."}
+
+@app.delete("/pilotos/{numero_licenca}", tags=["pilotos"])
+def delete_pilotos(numero_licenca: int):
+    return {f"O piloto com nº de licença {numero_licenca} foi deletado."}
