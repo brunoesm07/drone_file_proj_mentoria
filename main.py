@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from pydantic import BaseModel
 
 description = """
 Drone File é um sistema de gestão de drones.
@@ -23,6 +24,18 @@ tags_metadata = [
     },
 ]
 
+class drones(BaseModel):
+    numero_serie_drone: int
+    modelo: str
+    fabricante: str
+    classe: int
+
+class pilotos(BaseModel):
+    numero_licenca: int
+    nome: str
+    classe: int
+
+
 app = FastAPI(
     title="Drone File",
     description=description,
@@ -35,20 +48,20 @@ def drone_file_root():
     return {"App": "Drone File"}
 
 @app.post("/drones/", status_code=201, tags=["drones"])
-def create_drones():
-    return {}
+def create_drones(novo_drone: drones):
+    return {novo_drone}
 
 @app.post("/pilotos/", status_code=201, tags=["pilotos"])
-def create_pilotos():
-    return {}
+def create_pilotos(novo_piloto: pilotos):
+    return {novo_piloto}
 
 @app.get("/drones/{numero_serie_drone}", tags=["drones"])
 def read_drones(numero_serie_drone: int):
-    return {"drones": {numero_serie_drone}}
+    return {"numero_serie_drone": numero_serie_drone}
 
 @app.get("/drones", tags=["drones"])
 def read_drones():
-    return {"drones"}
+    return {"/drones"}
 
 @app.get("/drones/{numero_serie_drone}/pilotos", tags=["drones"])
 def read_drones():
@@ -56,7 +69,7 @@ def read_drones():
 
 @app.get("/pilotos/{numero_licenca}", tags=["pilotos"])
 def read_drones(numero_licenca: int):
-    return {"pilotos": {numero_licenca}}
+    return {"numero_licenca": numero_licenca}
 
 @app.put("/drones/{numero_serie_drone}", tags=["drones"])
 def update_drones(numero_serie_drone: int):
